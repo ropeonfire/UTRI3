@@ -6,8 +6,11 @@ Element formulation:
 1. Can be set for either isotropic or lamina material behavior.
 
 This module:
-1. Is included in the user source code with an INCLUDE statement.
-1. Is accessed in the user source code with a USE statement within the UEL user subroutine.
+1. Must be included in the user source code with an INCLUDE statement.
+1. Must be accessed in the user source code with a USE statement within the UEL user subroutine.
+
+The module-level element subroutine:
+1. Must be called in the user source code with a CALL statement within the UEL user subroutine.
 
 ## USAGE
 All instructions are given in the `utri3.f90` source code.
