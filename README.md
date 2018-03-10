@@ -1,6 +1,8 @@
 # UTRI3
 Standard 2D 3-node linear triangle User Element for Abaqus/Standard (UEL Subroutine).
 
+Written using object-oriented techniques and derived types with type-bound procedures. Intended for use with Intel Fortran compilers.
+
 Element formulation:
 1. Can be set for either plane strain or plane stress.
 1. Can be set for either isotropic or lamina material behavior.
